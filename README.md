@@ -29,6 +29,12 @@ Each keypoint is described by a vector representing the gradient orientations an
 
 The project provides an implementation and explanation of each step in detail, facilitating a comprehensive understanding of SIFT.
 
+## Results
+| Our Implementation | cv2 Implementation |
+|---------|---------|
+| ![img1](./img2.png) | ![img2](./img1.png) |
+
+
 ## Challenges Encountered
 1. **Keypoint Orientation:** Some keypoints result in empty histograms during orientation calculations.
 2. **Visualization Errors:** The resultant images often deviate from expected outputs.
